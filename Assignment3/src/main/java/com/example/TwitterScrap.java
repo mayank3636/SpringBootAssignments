@@ -54,8 +54,6 @@ ApplicationContext app;
 			cb.setOAuthConsumerSecret(prop.getProperty("CONSUMER_SECRET"));
 			cb.setOAuthAccessToken(prop.getProperty("ACCESS_TOKEN"));
 			cb.setOAuthAccessTokenSecret(prop.getProperty("ACCESS_TOKEN_SECRET"));
-			cb.setHttpProxyHost("172.22.218.218");
-			cb.setHttpProxyPort(8085);
 			cb.setJSONStoreEnabled(true);
 			cb.setIncludeEntitiesEnabled(true);
  
