@@ -5,10 +5,7 @@ import java.util.TimerTask;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
-/**
- *
- * @author Dhinakaran P.
- */
+
 // Create a class extends with TimerTask
 public class ScheduledTask extends TimerTask {
 
